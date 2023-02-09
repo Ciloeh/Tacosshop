@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Obi T Ken">
+    <meta name="description" content="contact information for The Little Taco Shop.">
+    <title>Contact Us - LTS</title>
+    <link rel="icon" href="icons8-star-50.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About <abbr title="The Little Taco Shop">LTS</abbr></a>
+                <li>
+                    <a href="#">Our Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">store hours</a>
+                </li>
+        </nav>
+        <figure>
+            <img src="tacos img/quesadilla-g396cf854e_1280.png" alt="Little Tacos Shop Tacos"
+                title="Tacos ready to eat!" width="400" height="260">
+            <figcaption>
+                Little Taco Shop Tacos
+            </figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h2>Our Contact Form</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send Us A Message</legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="your name" autocomplete="on" required
+                            autofocus>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" placeholder="your email" autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" placeholder="your secret" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="2314567890"
+                            pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                    </p>
+                    <p>
+                        <label for="message">Your Message</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10"
+                            placeholder="Type your message here"></textarea>
+                    </p>
+                </fieldset>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        <section>
+            <h2>Our Location</h2>
+            <address>
+                11 Runway Santa Teresa New Mexico
+                88008
+                <br><br>
+                phone: <a href="tel" +14048972345>+14048972345</a>
+            </address>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>copyright &copy; The Little Taco Shop</p>
+    </footer>
+
+</body>
+
+</html>
